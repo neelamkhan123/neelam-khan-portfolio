@@ -1,0 +1,21 @@
+.section {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.title {
+  font-size: 5.5rem;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills .skill {
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}

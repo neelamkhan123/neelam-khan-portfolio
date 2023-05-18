@@ -1,0 +1,28 @@
+.section {
+  background-color: white;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons .icon {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.icons .icon .link {
+  color: black;
+}
+
+.icons .icon .link:hover {
+  color: rgb(165, 165, 165);
+}

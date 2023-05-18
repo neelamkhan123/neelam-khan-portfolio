@@ -1,0 +1,15 @@
+.section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+}

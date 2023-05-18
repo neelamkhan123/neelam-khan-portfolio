@@ -1,0 +1,19 @@
+.section {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2rem;
+  align-items: flex-end;
+  background-color: rgb(238, 238, 238);
+}
+
+.title {
+  font-size: 5.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  width: 50%;
+  text-align: end;
+}

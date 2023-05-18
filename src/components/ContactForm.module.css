@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  height: 80vh;
+}
+
+form .form {
+  display: grid;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form .form .data {
+  display: flex;
+  flex-direction: column;
+}
+
+form .form .data label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+form .form .data .input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+form .form .data1 {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+form .form .data2 {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+form .form .data3 {
+  grid-area: 2 / 1 / span 1 / span 2;
+}
+
+form .form .data4 {
+  grid-area: 3 / 1 / span 1 / span 2;
+}
+
+form .form .data4 .input {
+  height: 300px;
+}
+
+form .form button {
+  grid-area: 4 / 1 / span 1 / span 2;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid balck;
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: bold;
+}

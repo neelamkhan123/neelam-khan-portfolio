@@ -1,0 +1,66 @@
+.header {
+  background-color: white;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header .nav {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .nav .list {
+  list-style: none;
+  display: flex;
+}
+
+.header .nav .list a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.header .nav .list a.active,
+.header .nav .list a:hover {
+  color: rgb(165, 165, 165);
+}
+
+.scroll {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 25px 20px -20px;
+  background-color: white;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.scroll .nav {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.scroll .nav .list {
+  list-style: none;
+  display: flex;
+}
+
+.scroll .nav .list a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.scroll .nav .list a.active,
+.scroll .nav .list a:hover {
+  color: rgb(165, 165, 165);
+}
