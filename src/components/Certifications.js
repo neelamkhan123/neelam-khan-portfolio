@@ -7,9 +7,9 @@ import classes from "./Certifications.module.css";
 const Certifications = () => {
   return (
     <div className={classes.section}>
-      <img src={one} className={classes.img} />
-      <img src={two} className={classes.img} />
-      <img src={three} className={classes.img} />
+      <img src={one} className={classes.img} alt="HTML + CSS Certification" />
+      <img src={two} className={classes.img} alt="JavaScript Certification" />
+      <img src={three} className={classes.img} alt="React Certification" />
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Document } from "react-pdf";
 
 import classes from "./Footer.module.css";
 
@@ -25,15 +24,6 @@ const Footer = () => {
             <i className="fa-brands fa-github"></i>
           </Link>
         </li>
-        {/* <li className={classes.icon}>
-          <Link
-            to="file:///C:/Users/neela/Downloads/Neelam%20Khan%20CV.pdf"
-            target="_blank"
-            className={classes.link}
-          >
-            <i className="fa-solid fa-download"></i>
-          </Link>
-        </li> */}
       </ul>
     </div>
   );
