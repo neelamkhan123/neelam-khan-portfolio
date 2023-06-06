@@ -64,8 +64,8 @@ form .form button {
 
 /* Media Queries */
 
-/* Mobile Large */
-@media (max-width: 426px) {
+/* Desktop Down-sizing */
+@media (max-width: 588px) {
   form {
     height: auto;
   }

@@ -1,9 +1,9 @@
 .section {
-  height: 30vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 2rem;
+  padding: 1rem 2rem 1rem 0;
   align-items: flex-end;
   background-color: rgb(238, 238, 238);
 }
@@ -23,7 +23,7 @@
 /* Media Queries */
 
 /* Tablet */
-@media (max-width: 769px) {
+@media (max-width: 765px) {
   .section {
     height: auto;
     padding: 0.5rem 2rem 0.8rem 0;

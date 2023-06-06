@@ -44,6 +44,7 @@ const MainNavigation = () => {
                 isActive ? classes.active : undefined
               }
               end
+              id={classes.contact}
             >
               Contact
             </NavLink>

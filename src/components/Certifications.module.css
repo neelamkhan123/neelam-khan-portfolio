@@ -32,7 +32,7 @@
 }
 
 /* Mobile Large */
-@media (max-width: 426px) {
+@media (max-width: 623px) {
   .section {
     height: auto;
     flex-direction: column;

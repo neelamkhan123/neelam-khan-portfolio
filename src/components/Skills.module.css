@@ -36,6 +36,13 @@
   }
 }
 
+/* Desktop Down-sizing */
+@media (max-width: 550px) {
+  .skills {
+    flex-direction: column;
+  }
+}
+
 /* Mobile Large */
 @media (max-width: 426px) {
   .skills .skill {

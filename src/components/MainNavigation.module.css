@@ -64,3 +64,48 @@
 .scroll .nav .list a:hover {
   color: rgb(165, 165, 165);
 }
+
+/* Media Queries */
+@media (max-width: 750px) {
+  .header .nav {
+    justify-content: center;
+  }
+
+  .scroll .nav {
+    justify-content: center;
+  }
+
+  #contact {
+    margin-right: 0;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 426px) {
+  .header .nav {
+    padding: 0 1.9rem;
+  }
+
+  .header .nav .list a {
+    margin-right: 5rem;
+  }
+
+  .scroll .nav {
+    padding: 0 1.9rem;
+  }
+
+  .scroll .nav .list a {
+    margin-right: 5rem;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 426px) {
+  .header .nav .list a {
+    margin-right: 3rem;
+  }
+
+  .scroll .nav .list a {
+    margin-right: 3rem;
+  }
+}
