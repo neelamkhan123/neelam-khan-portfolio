@@ -67,3 +67,33 @@
     height: 0%;
   }
 }
+
+/* ////////////////////////////////////////////// */
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 769px) {
+  .container {
+    margin-bottom: 4rem;
+  }
+
+  .container .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 426px) {
+  .container .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 321px) {
+  .container .projects .project {
+    height: 190px;
+    width: 300px;
+  }
+}

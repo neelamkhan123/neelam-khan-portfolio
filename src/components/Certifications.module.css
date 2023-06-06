@@ -12,3 +12,42 @@
   height: 230px;
   width: 300px;
 }
+
+/* /////////////////////////////// */
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 769px) {
+  .section {
+    height: auto;
+  }
+
+  .img {
+    margin: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    height: 160px;
+    width: 290px;
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 426px) {
+  .section {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .img {
+    height: 250px;
+    width: 350px;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 321px) {
+  .img {
+    height: 240px;
+    width: 300px;
+  }
+}

@@ -59,3 +59,30 @@ form .form button {
   cursor: pointer;
   font-weight: bold;
 }
+
+/* ////////////////////////////////////////////////// */
+
+/* Media Queries */
+
+/* Mobile Large */
+@media (max-width: 426px) {
+  form {
+    height: auto;
+  }
+
+  form .form {
+    width: 90%;
+  }
+
+  form .form .data label {
+    font-size: 1rem;
+  }
+
+  form .form .data .input {
+    font-size: 0.5rem;
+  }
+
+  form .form button {
+    font-size: 1rem;
+  }
+}
