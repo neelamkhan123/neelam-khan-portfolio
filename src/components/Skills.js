@@ -9,8 +9,10 @@ const Skills = () => {
         <li className={classes.skill}>CSS</li>
         <li className={classes.skill}>SASS/SCSS</li>
         <li className={classes.skill}>JavaScript</li>
-        <li className={classes.skill}>jQuery</li>
         <li className={classes.skill}>ReactJS</li>
+        <li className={classes.skill}>TypeScript</li>
+        <li className={classes.skill}>Node.js</li>
+        <li className={classes.skill}>Responsive Design</li>
       </ul>
     </div>
   );
